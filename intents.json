@@ -1,0 +1,76 @@
+{
+
+  "intents": [
+
+
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hii","hey","wakeup","jarvis","are you there"
+
+      ],
+      "responses": ["Hello sir","How are you sir","Alway's for you  sir ","Hello","Here your Asistant"
+
+      ]
+    },
+
+    {
+      "tag": "bye",
+      "patterns": ["bye", "good bye","see you later","sleep","exit"
+      ],
+      "responses": [
+        "Bye","I am going","Always for you  sir ","Hello See you later","It'll nice to meet you again","Good Bye"
+
+      ]
+    },
+
+    {
+  "tag": "health",
+  "patterns": ["how are you", "how you", "are you fine?", "are you good"],
+  "responses": [
+    "Fine",
+    "Perfect",
+    "Cool",
+    "Like You",
+    "Are you fine",
+    "I'm Fine"
+  ]
+},
+{
+  "tag": "identity",
+  "patterns": ["your name", "what is your name", "who are you", "what are you"],
+  "responses": ["My name is Jarvis, your reliable AI assistant.", "I am Jarvis, here to assist you.", "I'm an AI assistant programmed to help you.", "You can call me Jarvis, your helpful assistant.", "I'm Jarvis, your go-to assistant."]
+},
+{
+  "tag": "time",
+  "patterns": ["what is time", "time", "samay", "what's the time"],
+  "responses": ["time"]
+},
+{
+  "tag": "date",
+  "patterns": ["what is date", "date", "tareek", "what's the date"],
+  "responses": ["date"]
+},
+
+{
+  "tag": "day",
+  "patterns": ["what is day", "day", "din", "what's the day"],
+  "responses": ["day"]
+},
+    {
+  "tag": "wikipedia",
+  "patterns": ["who is", "about", "wikipedia"],
+  "responses": ["wikipedia"]
+},
+     {
+  "tag": "google",
+  "patterns": ["google search","google", "search"],
+  "responses": ["google"]
+}
+
+
+
+
+
+
+  ]
+}
